@@ -44,4 +44,4 @@ transform(channelblue[1])
 transform(channelred[1],invert=False)
 
 save(channelred,name=(nameofchart+"red.csv"))
-save(channelblue, name=(nameofchart+"1V8kblue.csv"))
+save(channelblue, name=(nameofchart+"blue.csv"))
