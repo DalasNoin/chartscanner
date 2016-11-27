@@ -1,9 +1,16 @@
 from PIL import Image
 import numpy as np
 
+#not used
+def show(ca):
+    import matplotlib.pyplot as plt
+    plt.plot(ca[0],ca[1])
+    plt.show()
+
 nameofchart = "1v8khz"
 
-colorfields = [(50,130,-188),(-170,100,95)]
+#negative value -> above, positive value below
+colorfields = [(99,150,-120),(-100,100,115)]
 
 import math
 sign = lambda x: np.array([math.copysign(1,c) for c in x])
